@@ -1,4 +1,4 @@
-Analyzing stocks using clustering
+# Analyzing stocks using clustering
 
 ![screenshot](https://github.com/kirillsurkov/clusteringstocks/raw/master/screenshot.png)
 
