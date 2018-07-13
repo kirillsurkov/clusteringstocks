@@ -2,7 +2,7 @@
 
 ![screenshot](https://github.com/kirillsurkov/clusteringstocks/raw/master/screenshot.png)
 
-Usage:
+### Usage:
 ```sh
 	npm install # install deps
 	node longbars.js 6 XBTUSD # get 5m bars for a half year from bitmex
