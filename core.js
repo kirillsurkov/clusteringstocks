@@ -64,7 +64,7 @@ let init = () => {
 	require("electron").ipcRenderer.on("data", async (event, data) => {
 		let predict = data.predict;
 		let width = data.clusters[0].length;
-		let candles = (await Bitmex.getCandles(60)).slice(0, -2);
+		let candles = (await Bitmex.getCandles(60)).slice(0, -1);
 		let back = backtest.backtest(data, candles, 16);
 		let percents = back.percents;
 		let sims = back.similarities;
